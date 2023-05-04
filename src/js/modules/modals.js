@@ -53,6 +53,8 @@ const modals = () => {
     const timerID = showModalOnTime(".popup");
 
     bindTriggerToModal(".phone_link", ".popup", ".popup_close", timerID);
+
+    bindTriggerToModal(".popup_calc_btn", ".popup_calc", ".popup_calc_close");
 };
 
 export default modals;
